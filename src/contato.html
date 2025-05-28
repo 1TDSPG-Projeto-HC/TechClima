@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechClima - Contato</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/index.html" class="logo">TechClima</a>
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="/index.html" class="nav-link">Início</a></li>
+                    <li><a href="/index.html#solucoes" class="nav-link">Nossas Soluções</a></li>
+                    <li><a href="integrantes.html" class="nav-link">Integrantes</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contato.html" class="nav-link current">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menu" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Entre em Contato Conosco</h1>
+                <p class="section-description">Tem dúvidas, sugestões ou quer saber mais sobre nossas soluções? Preencha o formulário abaixo ou utilize nossos canais de contato.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required placeholder="Seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Assunto da mensagem">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Sua mensagem..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    <div class="contact-info-sidebar">
+                        <h3>Informações de Contato</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua da Tecnologia, 123 - Cidade Inovadora, Brasil</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:contato@techclima.com">contato@techclima.com</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+5511987654321">+55 (11) 98765-4321</a></p>
+                        <!--Adicionar facebook twitter e linkedin da empresa-->
+                        <!-- <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div> -->
+                        <div class="map-placeholder">
+                            <img src="../assets/img/mapa-localizacao.png" alt="Placeholder de Mapa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>TechClima</h3>
+                    <p>Inovando para um futuro mais resiliente.</p>
+
+                    <!--Adicionar facebook twitter e linkedin da empresa-->
+                    <!-- <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+                <div class="footer-section links">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="/index.html">Início</a></li>
+                        <li><a href="/index.html#solucoes">Soluções</a></li>
+                        <li><a href="integrantes.html">Equipe</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua da Tecnologia, 123 - Cidade Inovadora</p>
+                    <p><i class="fas fa-envelope"></i> contato@techclima.com</p>
+                    <p><i class="fas fa-phone"></i> +55 (11) 98765-4321</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechClima. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
