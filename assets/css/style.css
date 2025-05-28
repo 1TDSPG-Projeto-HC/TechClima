@@ -687,6 +687,17 @@ section .section-description {
     box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.2);
 }
 
+.member-photoalt {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    margin-bottom: 20px;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
 .team-member-card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
